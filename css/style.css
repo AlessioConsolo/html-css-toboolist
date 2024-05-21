@@ -53,4 +53,15 @@ h1 {
   width: 50%;
   height: 50px;
   margin: 40px auto 5px;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.container {
+  background-color: white;
+  width: 50%;
+  height: 1110px;
+  margin: -2px auto 5px;
+  border-bottom-left-radius: 1%;
+  border-bottom-right-radius: 1%;
 }
