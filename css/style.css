@@ -6,6 +6,7 @@
 
 body {
   background-color: rgba(246, 248, 249, 255);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header */
@@ -38,7 +39,6 @@ header img {
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   display: inline-block;
   font-size: 35px;
@@ -65,4 +65,53 @@ h1 {
   border-bottom-left-radius: 1%;
   border-bottom-right-radius: 1%;
   padding: 50px 0 20px 70px;
+}
+
+/* Table */
+
+li {
+  margin: 15px 0 20px 0;
+}
+
+.second-list {
+  margin-top: 40px;
+}
+
+.third-list {
+  margin-top: 40px;
+}
+
+.circle-green {
+  padding: 1px 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(160, 220, 207, 255);
+  margin-left: -18px;
+  margin-right: 10px;
+}
+
+.circle-red {
+  padding: 1px 10px;
+  border-radius: 50%;
+  border: 2px solid red;
+  margin-left: -18px;
+  margin-right: 10px;
+}
+
+.checkmark::marker {
+  content: "✓";
+  color: rgba(160, 220, 207, 255);
+}
+
+.cross::marker {
+  content: "✗";
+  color: red;
+}
+
+.d-arrow::marker {
+  content: "⯆";
+  color: black;
+}
+
+h3 {
+  padding: 0 0 0 7px;
 }
